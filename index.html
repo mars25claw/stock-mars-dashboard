@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>📈 Stock Mars Dashboard</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#0a0a0f;color:#e0e0e0;font-family:'SF Mono',monospace;padding:20px}
+.lock{display:flex;justify-content:center;align-items:center;height:100vh;flex-direction:column}
+.lock input{background:#1a1a2e;color:#0f0;border:1px solid #333;padding:12px 20px;font-size:18px;text-align:center;border-radius:8px;width:250px}
+.lock button{margin-top:10px;background:#0f0;color:#000;border:none;padding:10px 30px;border-radius:8px;cursor:pointer;font-weight:bold}
+h1{text-align:center;color:#00ff88;margin-bottom:20px;font-size:28px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px;margin-bottom:20px}
+.card{background:#1a1a2e;border-radius:12px;padding:20px;border:1px solid #333}
+.card h2{color:#888;font-size:14px;margin-bottom:10px;text-transform:uppercase;letter-spacing:1px}
+.big{font-size:32px;font-weight:bold;color:#00ff88}
+.red{color:#ff4444}.green{color:#00ff88}.yellow{color:#ffaa00}
+table{width:100%;border-collapse:collapse;margin-top:10px}
+th,td{text-align:left;padding:8px;border-bottom:1px solid #222}
+th{color:#666;font-size:12px;text-transform:uppercase}
+.pos-row:hover{background:#222}
+.badge{padding:2px 8px;border-radius:4px;font-size:12px}
+.badge-buy{background:#00ff8822;color:#00ff88}
+.badge-sell{background:#ff444422;color:#ff4444}
+#main{display:none}
+.footer{text-align:center;color:#444;margin-top:30px;font-size:12px}
+.scan-item{padding:8px 0;border-bottom:1px solid #1a1a2e}
+</style>
+</head>
+<body>
+<div class="lock" id="lock">
+<h1>📈 Stock Mars</h1>
+<p style="color:#666;margin-bottom:15px">Enter password</p>
+<input type="password" id="pw" onkeydown="if(event.key==='Enter')unlock()">
+<button onclick="unlock()">Enter</button>
+</div>
+<div id="main">
+<h1>📈 Stock Mars — Gap & Go Dashboard</h1>
+<div class="grid">
+<div class="card"><h2>💰 Account</h2>
+<div class="big" id="equity">$0</div>
+<p style="margin-top:8px"><span style="color:#888">Cash:</span> <span id="cash">$0</span></p>
+<p><span style="color:#888">Buying Power:</span> <span id="bp">$0</span></p>
+</div>
+<div class="card"><h2>📅 Today</h2>
+<div class="big" id="daily-pnl">$0</div>
+<p style="margin-top:8px"><span style="color:#888">Trades:</span> <span id="daily-trades">0</span></p>
+</div>
+<div class="card"><h2>📊 All-Time Stats</h2>
+<p><span style="color:#888">Total Trades:</span> <span id="total-trades">0</span></p>
+<p><span style="color:#888">Win Rate:</span> <span id="win-rate">0%</span></p>
+<p><span style="color:#888">Total P&L:</span> <span id="total-pnl">$0</span></p>
+</div>
+</div>
+<div class="card" style="margin-bottom:16px"><h2>📈 Open Positions</h2>
+<table><thead><tr><th>Symbol</th><th>Qty</th><th>Entry</th><th>Current</th><th>P&L</th><th>%</th></tr></thead>
+<tbody id="positions"></tbody></table>
+</div>
+<div class="grid">
+<div class="card"><h2>🔫 Scanner Candidates</h2><div id="scan-list"></div></div>
+<div class="card"><h2>🎯 Alerts</h2><div id="alert-list"></div></div>
+</div>
+<div class="card" style="margin-top:16px"><h2>📓 Recent Trades</h2>
+<table><thead><tr><th>Time</th><th>Symbol</th><th>Side</th><th>Qty</th><th>Entry</th><th>Score</th><th>Status</th></tr></thead>
+<tbody id="journal"></tbody></table>
+</div>
+<div class="footer">Stock Mars v1.0 | Ross Cameron Gap & Go | Updated: <span id="updated">-</span></div>
+</div>
+<script>
+const PW='mars100';
+function unlock(){if(document.getElementById('pw').value===PW){localStorage.setItem('sm-auth','1');show()}}
+function show(){document.getElementById('lock').style.display='none';document.getElementById('main').style.display='block';load()}
+if(localStorage.getItem('sm-auth')==='1')show();
+async function load(){
+try{
+const[status,stats,daily,scan,alerts,journal]=await Promise.all([
+fetch('data/status.json').then(r=>r.json()).catch(()=>({})),
+fetch('data/stats.json').then(r=>r.json()).catch(()=>({})),
+fetch('data/daily.json').then(r=>r.json()).catch(()=>({})),
+fetch('data/scan.json').then(r=>r.json()).catch(()=>({})),
+fetch('data/alerts.json').then(r=>r.json()).catch(()=>({})),
+fetch('data/journal.json').then(r=>r.json()).catch(()=>({}))
+]);
+document.getElementById('equity').textContent='$'+((status.equity||0).toLocaleString());
+document.getElementById('cash').textContent='$'+((status.cash||0).toLocaleString());
+document.getElementById('bp').textContent='$'+((status.buying_power||0).toLocaleString());
+const dp=daily.pnl||0;
+const dpe=document.getElementById('daily-pnl');
+dpe.textContent=(dp>=0?'+':'')+dp.toFixed(2);
+dpe.className='big '+(dp>=0?'green':'red');
+document.getElementById('daily-trades').textContent=daily.trades||0;
+document.getElementById('total-trades').textContent=stats.trades||0;
+const wr=stats.trades>0?((stats.wins||0)/stats.trades*100).toFixed(0)+'%':'0%';
+document.getElementById('win-rate').textContent=wr;
+const tp=stats.total_pnl||0;
+document.getElementById('total-pnl').innerHTML='<span class="'+(tp>=0?'green':'red')+'">'+(tp>=0?'+':'')+tp.toFixed(2)+'</span>';
+// Positions
+const pb=document.getElementById('positions');
+pb.innerHTML='';
+(status.positions||[]).forEach(p=>{
+const c=p.pnl>=0?'green':'red';
+pb.innerHTML+=`<tr class="pos-row"><td>${p.symbol}</td><td>${p.qty}</td><td>$${p.entry}</td><td>$${p.current}</td><td class="${c}">${p.pnl>=0?'+':''}${p.pnl.toFixed(2)}</td><td class="${c}">${p.pnl_pct>=0?'+':''}${p.pnl_pct.toFixed(1)}%</td></tr>`;
+});
+if(!(status.positions||[]).length)pb.innerHTML='<tr><td colspan="6" style="color:#444;text-align:center">No open positions</td></tr>';
+// Scan
+const sl=document.getElementById('scan-list');
+sl.innerHTML='';
+(scan.candidates||[]).slice(0,8).forEach(c=>{
+sl.innerHTML+=`<div class="scan-item">${c.symbol} <span class="green">+${c.gap_pct}%</span> $${c.price}</div>`;
+});
+if(!(scan.candidates||[]).length)sl.innerHTML='<p style="color:#444">No scan results</p>';
+// Alerts
+const al=document.getElementById('alert-list');
+al.innerHTML='';
+(alerts.alerts||[]).slice(-5).reverse().forEach(a=>{
+al.innerHTML+=`<div class="scan-item">${a.symbol} <span class="yellow">${a.score}/100</span> $${a.price}</div>`;
+});
+if(!(alerts.alerts||[]).length)al.innerHTML='<p style="color:#444">No alerts yet</p>';
+// Journal
+const jb=document.getElementById('journal');
+jb.innerHTML='';
+(journal.trades||[]).slice(-8).reverse().forEach(t=>{
+const d=new Date(t.ts*1000);
+const st=t.status==='win'?'green':t.status==='loss'?'red':'yellow';
+jb.innerHTML+=`<tr><td>${d.toLocaleDateString()} ${d.toLocaleTimeString()}</td><td>${t.symbol}</td><td><span class="badge badge-buy">${t.side}</span></td><td>${t.qty}</td><td>$${t.entry.toFixed(2)}</td><td>${t.score}</td><td class="${st}">${t.status}</td></tr>`;
+});
+if(!(journal.trades||[]).length)jb.innerHTML='<tr><td colspan="7" style="color:#444;text-align:center">No trades yet</td></tr>';
+document.getElementById('updated').textContent=status.updated||'-';
+}catch(e){console.error(e)}
+}
+setInterval(load,60000);
+</script>
+</body>
+</html>
