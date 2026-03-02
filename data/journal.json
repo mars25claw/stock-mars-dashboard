@@ -1,3 +1,93 @@
 {
-  "trades": []
+  "trades": [
+    {
+      "ts": 1772474996.120496,
+      "symbol": "BATL",
+      "side": "BUY",
+      "qty": 7,
+      "entry": 10.19,
+      "stop": 9.3701,
+      "target": 11.829799999999997,
+      "score": 82,
+      "order_id": "fa9038eb-1bc0-4117-9adc-02b2c8d46528",
+      "status": "closed",
+      "exit_price": 0,
+      "pnl": 0.0,
+      "note": "test trade - manually closed"
+    },
+    {
+      "ts": 1772475605.986222,
+      "symbol": "BATL",
+      "side": "BUY",
+      "qty": 6,
+      "entry": 10.45,
+      "stop": 9.56,
+      "target": 12.23,
+      "score": 65,
+      "order_id": "44e978ea-971f-4fee-8e99-72c560b053c2",
+      "status": "closed",
+      "exit_price": 0,
+      "pnl": 0.0,
+      "note": "test trade - manually closed"
+    },
+    {
+      "ts": 1772478438.667809,
+      "symbol": "TMDE",
+      "side": "BUY",
+      "qty": 70,
+      "entry": 2.495,
+      "stop": 2.41,
+      "target": 2.67,
+      "score": 44,
+      "order_id": "c4d8ab65-6214-4287-b515-b739ccfd4f32",
+      "status": "closed",
+      "exit_price": 0,
+      "pnl": 0.0,
+      "note": "test trade - manually closed"
+    },
+    {
+      "ts": 1772478873.8875809,
+      "symbol": "EMAT",
+      "side": "BUY",
+      "qty": 14,
+      "entry": 10.39,
+      "stop": 9.99,
+      "target": 11.19,
+      "score": 61,
+      "order_id": "c1464491-2117-4c83-8d47-604507896eaf",
+      "status": "closed",
+      "exit_price": 0,
+      "pnl": 0.0,
+      "note": "test trade - manually closed"
+    },
+    {
+      "ts": 1772480406.1783402,
+      "symbol": "OCUL",
+      "side": "BUY",
+      "qty": 49,
+      "entry": 10.72,
+      "stop": 10.6,
+      "target": 10.96,
+      "score": 48,
+      "order_id": "a56ec577-c0e0-4482-b276-277389e15b1b",
+      "status": "closed",
+      "exit_price": 0,
+      "pnl": 0.0,
+      "note": "test trade - manually closed"
+    },
+    {
+      "ts": 1772482317.384148,
+      "symbol": "AAPL",
+      "side": "BUY",
+      "qty": 4,
+      "entry": 264.41,
+      "stop": 264.33,
+      "target": 269.7,
+      "score": 2,
+      "order_id": "74affdf1-f1bf-446d-8ac3-5a7999461677",
+      "status": "closed",
+      "exit_price": 264.64,
+      "exit_ts": 1772482341.03022
+    }
+  ]
 }

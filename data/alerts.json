@@ -1,3 +1,60 @@
 {
-  "alerts": []
+  "alerts": [
+    {
+      "ts": 1772474910.167037,
+      "symbol": "BATL",
+      "score": 90,
+      "price": 10.19,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772474930.013629,
+      "symbol": "JFB",
+      "score": 75,
+      "price": 19.02,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772474977.1239119,
+      "symbol": "BATL",
+      "score": 82,
+      "price": 10.19,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772474983.4745002,
+      "symbol": "JFB",
+      "score": 67,
+      "price": 19.02,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772478858.9651468,
+      "symbol": "EMAT",
+      "score": 61,
+      "price": 10.39,
+      "direction": "WATCH"
+    },
+    {
+      "ts": 1772479248.246331,
+      "symbol": "BATL",
+      "score": 84,
+      "price": 11.86,
+      "direction": "WATCH"
+    },
+    {
+      "ts": 1772479252.771778,
+      "symbol": "MVO",
+      "score": 62,
+      "price": 2.84,
+      "direction": "WATCH"
+    },
+    {
+      "ts": 1772479260.180444,
+      "symbol": "RLYB",
+      "score": 68,
+      "price": 10.0,
+      "direction": "WATCH"
+    }
+  ]
 }
