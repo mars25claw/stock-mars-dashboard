@@ -29,7 +29,9 @@
       "session": "open",
       "ts": 1772549284.150985,
       "score": 67,
-      "note": "auto-closed duplicate journal entry"
+      "note": "auto-closed duplicate journal entry",
+      "pnl": 0.36,
+      "exit_price": 12.83
     },
     {
       "ts": 1772549887.534782,
