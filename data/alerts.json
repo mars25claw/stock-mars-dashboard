@@ -503,6 +503,13 @@
       "score": 60,
       "price": 11.265,
       "direction": "LONG"
+    },
+    {
+      "ts": 1772549878.388793,
+      "symbol": "PINS",
+      "score": 69,
+      "price": 18.59,
+      "direction": "LONG"
     }
   ]
 }
