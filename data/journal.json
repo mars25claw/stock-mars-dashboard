@@ -1,3 +1,21 @@
 {
-  "trades": []
+  "trades": [
+    {
+      "symbol": "VG",
+      "side": "long",
+      "qty": 6,
+      "entry": 12.77,
+      "stop": 11.88,
+      "target": 14.58,
+      "rr": 2.02,
+      "status": "closed",
+      "session": "open",
+      "ts": 1772548737.573054,
+      "score": 67,
+      "note": "journal+OCO recovered by auto-fix",
+      "exit_price": 12.83,
+      "exit_ts": 1772549035.185245,
+      "pnl": 0.36
+    }
+  ]
 }

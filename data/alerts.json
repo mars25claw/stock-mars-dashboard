@@ -489,6 +489,20 @@
       "score": 67,
       "price": 13.045,
       "direction": "WATCH"
+    },
+    {
+      "ts": 1772548669.210054,
+      "symbol": "OCUL",
+      "score": 60,
+      "price": 11.355,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772548869.34564,
+      "symbol": "OCUL",
+      "score": 60,
+      "price": 11.265,
+      "direction": "LONG"
     }
   ]
 }
