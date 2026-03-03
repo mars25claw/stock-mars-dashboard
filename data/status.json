@@ -1,7 +1,16 @@
 {
-  "equity": 99993.54,
-  "cash": 99993.54,
-  "buying_power": 199987.08,
-  "updated": "2026-03-02T20:50:00.610592",
-  "positions": []
+  "equity": 99993.6,
+  "cash": 99955.7,
+  "buying_power": 399936.23,
+  "updated": "2026-03-03T09:34:19.802278",
+  "positions": [
+    {
+      "symbol": "VG",
+      "qty": 3,
+      "entry": 12.6,
+      "current": 12.64,
+      "pnl": 0.13,
+      "pnl_pct": 0.33
+    }
+  ]
 }

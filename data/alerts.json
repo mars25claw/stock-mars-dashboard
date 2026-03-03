@@ -55,6 +55,440 @@
       "score": 68,
       "price": 10.0,
       "direction": "WATCH"
+    },
+    {
+      "ts": 1772508639.1170838,
+      "symbol": "OCUL",
+      "score": 94,
+      "price": 10.99,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772509509.67814,
+      "symbol": "OCUL",
+      "score": 94,
+      "price": 10.99,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772510434.2711098,
+      "symbol": "OCUL",
+      "score": 94,
+      "price": 10.99,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772511314.352611,
+      "symbol": "OCUL",
+      "score": 74,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772512312.198975,
+      "symbol": "OCUL",
+      "score": 74,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772513113.267432,
+      "symbol": "OCUL",
+      "score": 74,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544423.4279602,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544425.449204,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544426.430527,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544516.026622,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544518.125824,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544519.097366,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544635.876655,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544637.97542,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544638.8595688,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544808.323105,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544810.3164291,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544811.215553,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544934.8456378,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544937.0133991,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544938.2515001,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544970.890399,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544972.8427389,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772544973.77738,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545005.935633,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545007.984502,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545009.0201359,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545040.0056908,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545042.3391201,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545043.441812,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545173.623887,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545175.733066,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545176.676745,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545515.1973739,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545517.587011,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772545518.7467961,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772546441.332227,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772546443.435848,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772546444.540601,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772546499.15634,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772546501.0379589,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772546501.937685,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772546707.256038,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772546709.07468,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772546710.191883,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547038.917313,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547041.055478,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547042.829893,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547307.932353,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547309.752613,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547310.65932,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547374.9315178,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.69,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547376.726719,
+      "symbol": "HIMS",
+      "score": 85,
+      "price": 16.37,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547377.624685,
+      "symbol": "FIGS",
+      "score": 63,
+      "price": 17.065,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547641.683757,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.745,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547643.082077,
+      "symbol": "VG",
+      "score": 90,
+      "price": 13.08,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547644.099008,
+      "symbol": "HIMS",
+      "score": 77,
+      "price": 15.855,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547909.1536908,
+      "symbol": "OCUL",
+      "score": 77,
+      "price": 10.745,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547910.162944,
+      "symbol": "VG",
+      "score": 90,
+      "price": 13.08,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772547911.178366,
+      "symbol": "HIMS",
+      "score": 77,
+      "price": 15.855,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772548323.228429,
+      "symbol": "VG",
+      "score": 67,
+      "price": 12.27,
+      "direction": "WATCH"
+    },
+    {
+      "ts": 1772548381.353326,
+      "symbol": "VG",
+      "score": 67,
+      "price": 13.045,
+      "direction": "WATCH"
     }
   ]
 }

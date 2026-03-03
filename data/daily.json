@@ -1,5 +1,8 @@
 {
-  "date": "2026-03-02",
+  "date": "2026-03-03",
   "pnl": 0,
-  "trades": 2
+  "trades": 1,
+  "by_session": {
+    "open": 1
+  }
 }

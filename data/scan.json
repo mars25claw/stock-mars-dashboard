@@ -1,55 +1,6 @@
 {
-  "ts": 1772501538.872504,
-  "candidates": [
-    {
-      "symbol": "VG",
-      "price": 11.38,
-      "gap_pct": 17.44,
-      "volume": 46157149,
-      "has_news": false,
-      "news_count": 0,
-      "float": 0
-    },
-    {
-      "symbol": "HIMS",
-      "price": 16.48,
-      "gap_pct": 13.5,
-      "volume": 32656056,
-      "has_news": false,
-      "news_count": 0,
-      "float": 0
-    },
-    {
-      "symbol": "OCUL",
-      "price": 10.98,
-      "gap_pct": 22.82,
-      "volume": 17101229,
-      "has_news": false,
-      "news_count": 0,
-      "float": 0
-    },
-    {
-      "symbol": "FIGS",
-      "price": 17.12,
-      "gap_pct": 10.81,
-      "volume": 8891169,
-      "has_news": false,
-      "news_count": 0,
-      "float": 0
-    },
-    {
-      "symbol": "EMAT",
-      "price": 10.16,
-      "gap_pct": 27.48,
-      "volume": 708286,
-      "has_news": false,
-      "news_count": 0,
-      "float": 0
-    }
-  ],
-  "top3": [
-    "VG",
-    "HIMS",
-    "OCUL"
-  ]
+  "ts": 1772548383.287282,
+  "candidates": [],
+  "top3": [],
+  "scanned_at": "2026-03-03T09:33:03.287293-05:00"
 }
