@@ -1,24 +1,3 @@
 {
-  "trades": [
-    {
-      "ts": 1772548339.0187142,
-      "symbol": "VG",
-      "side": "BUY",
-      "qty": 3,
-      "entry": 13.11,
-      "entry_price": 12.59,
-      "stop": 11.21,
-      "target": 16.91,
-      "score": 67,
-      "session": "open",
-      "order_id": "3e226bbe-a2a4-40c3-89b7-f5c18e0c4a72",
-      "status": "open",
-      "risk_ps": 1.8999999999999986,
-      "size_mult": 1.0,
-      "partial_done": false,
-      "is_short": false,
-      "extended_hours": false,
-      "fill_ts": 1772548458.94385
-    }
-  ]
+  "trades": []
 }
