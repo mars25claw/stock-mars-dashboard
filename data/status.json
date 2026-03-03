@@ -1,16 +1,7 @@
 {
-  "equity": 99992.6,
-  "cash": 99585.49,
-  "buying_power": 399565.93,
-  "updated": "2026-03-03T20:30:00.694367",
-  "positions": [
-    {
-      "symbol": "PINS",
-      "qty": 22,
-      "entry": 18.55,
-      "current": 18.51,
-      "pnl": -0.89,
-      "pnl_pct": -0.22
-    }
-  ]
+  "equity": 99990.73,
+  "cash": 99990.73,
+  "buying_power": 399974.04,
+  "updated": "2026-03-03T20:32:58.463788",
+  "positions": []
 }

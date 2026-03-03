@@ -43,13 +43,16 @@
       "score": 69,
       "session": "open",
       "order_id": "6f15eaac-bbdf-4669-b26d-f28e1d2659b6",
-      "status": "open",
+      "status": "closed",
       "risk_ps": 0.26500000000000057,
       "size_mult": 1.0,
       "partial_done": false,
       "is_short": false,
       "extended_hours": false,
-      "fill_ts": 1772549889.24635
+      "fill_ts": 1772549889.24635,
+      "exit_price": 18.42,
+      "exit_ts": 1772550177.5950751,
+      "pnl": -3.08
     }
   ]
 }

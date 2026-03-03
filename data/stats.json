@@ -1,7 +1,7 @@
 {
   "wins": 2,
-  "losses": 1,
-  "consec_losses": 0,
-  "total_pnl": 2.36,
-  "trades": 3
+  "losses": 2,
+  "consec_losses": 1,
+  "total_pnl": -0.72,
+  "trades": 4
 }
