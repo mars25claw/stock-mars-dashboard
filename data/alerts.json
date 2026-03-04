@@ -720,6 +720,20 @@
       "score": 63,
       "price": 19.605,
       "direction": "LONG"
+    },
+    {
+      "ts": 1772631008.487173,
+      "symbol": "BRZE",
+      "score": 63,
+      "price": 19.605,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772631049.6009212,
+      "symbol": "BRZE",
+      "score": 63,
+      "price": 19.605,
+      "direction": "LONG"
     }
   ]
 }
