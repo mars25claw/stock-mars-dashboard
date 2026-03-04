@@ -510,6 +510,202 @@
       "score": 69,
       "price": 18.59,
       "direction": "LONG"
+    },
+    {
+      "ts": 1772556261.481781,
+      "symbol": "SEM",
+      "score": 60,
+      "price": 16.245,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772560620.967255,
+      "symbol": "PINS",
+      "score": 65,
+      "price": 18.925,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772560844.3000479,
+      "symbol": "PINS",
+      "score": 65,
+      "price": 19.045,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772560885.5296588,
+      "symbol": "PINS",
+      "score": 65,
+      "price": 19.055,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772560910.7236888,
+      "symbol": "PINS",
+      "score": 65,
+      "price": 19.025,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772560912.5752819,
+      "symbol": "STUB",
+      "score": 70,
+      "price": 11.915,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772560933.62975,
+      "symbol": "PINS",
+      "score": 65,
+      "price": 19.05,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772560935.418674,
+      "symbol": "STUB",
+      "score": 70,
+      "price": 11.94,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772560981.160924,
+      "symbol": "PINS",
+      "score": 65,
+      "price": 19.05,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772560983.075644,
+      "symbol": "STUB",
+      "score": 70,
+      "price": 11.945,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772561435.993312,
+      "symbol": "STUB",
+      "score": 63,
+      "price": 10.385,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772562387.891509,
+      "symbol": "LUNR",
+      "score": 70,
+      "price": 19.08,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772562716.593452,
+      "symbol": "STUB",
+      "score": 80,
+      "price": 10.465,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772562769.480039,
+      "symbol": "STUB",
+      "score": 80,
+      "price": 10.46,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772562941.216786,
+      "symbol": "STUB",
+      "score": 63,
+      "price": 10.445,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772563236.466849,
+      "symbol": "EOSE",
+      "score": 71,
+      "price": 6.225,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772563515.277838,
+      "symbol": "EOSE",
+      "score": 63,
+      "price": 6.235,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772563516.7930071,
+      "symbol": "LUMN",
+      "score": 71,
+      "price": 7.145,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772563581.76896,
+      "symbol": "EOSE",
+      "score": 63,
+      "price": 6.215,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772563582.5808551,
+      "symbol": "RNA",
+      "score": 65,
+      "price": 15.785,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772566836.0442848,
+      "symbol": "EOSE",
+      "score": 63,
+      "price": 6.215,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772567118.4467142,
+      "symbol": "EOSE",
+      "score": 63,
+      "price": 6.235,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772568040.1505651,
+      "symbol": "EOSE",
+      "score": 66,
+      "price": 6.245,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772568099.495142,
+      "symbol": "PINS",
+      "score": 65,
+      "price": 19.335,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772568101.210023,
+      "symbol": "EOSE",
+      "score": 66,
+      "price": 6.265,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772568650.2337549,
+      "symbol": "EOSE",
+      "score": 66,
+      "price": 6.225,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772571645.0410082,
+      "symbol": "BRZE",
+      "score": 63,
+      "price": 19.605,
+      "direction": "LONG"
+    },
+    {
+      "ts": 1772574316.334283,
+      "symbol": "BRZE",
+      "score": 63,
+      "price": 19.605,
+      "direction": "LONG"
     }
   ]
 }
